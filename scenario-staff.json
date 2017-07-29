@@ -47,7 +47,7 @@
       }
     ]
   },
-  "radio": {
+  "day1radio": {
     "order": 2,
     "display_text": {
       "en-US": "Day1 Radio",
@@ -58,7 +58,7 @@
     "countdown": 30,
     "lock_message": "Haven't Check-in"
   },
-  "radio": {
+  "day2radio": {
     "order": 4,
     "display_text": {
       "en-US": "Day2 Radio",
