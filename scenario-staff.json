@@ -29,8 +29,7 @@
         "id": "day1radio",
         "unlock": true
       }
-    ],
-    "deliver_puzzle": 2
+    ]
   },
   "day2checkin": {
     "order": 3,
@@ -46,8 +45,7 @@
         "id": "day2radio",
         "unlock": true
       }
-    ],
-    "deliver_puzzle": 2
+    ]
   },
   "radio": {
     "order": 2,
