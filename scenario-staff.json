@@ -25,10 +25,6 @@
     "expire_time": "2017/08/05 17:00 +0800",
     "countdown": 0,
     "related_scenario": [
-      {
-        "id": "day1radio",
-        "unlock": true
-      }
     ]
   },
   "day2checkin": {
@@ -41,10 +37,6 @@
     "expire_time": "2017/08/06 17:00 +0800",
     "countdown": 0,
     "related_scenario": [
-      {
-        "id": "day2radio",
-        "unlock": true
-      }
     ]
   },
   "day1radio": {
@@ -56,7 +48,11 @@
     "available_time": "2017/08/05 07:00 +0800",
     "expire_time": "2017/08/05 17:00 +0800",
     "countdown": 30,
-    "lock_message": "Haven't Check-in"
+    "not_lock_rule": {
+      "row_name": "radio",
+      "value_match": "1",
+      "not_match_disable_message": "不用領"
+    }
   },
   "day2radio": {
     "order": 4,
@@ -67,6 +63,10 @@
     "available_time": "2017/08/06 07:00 +0800",
     "expire_time": "2017/08/06 17:00 +0800",
     "countdown": 30,
-    "lock_message": "Haven't Check-in"
+    "not_lock_rule": {
+      "row_name": "radio",
+      "value_match": "1",
+      "not_match_disable_message": "不用領"
+    }
   }
 }
